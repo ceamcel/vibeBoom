@@ -23,9 +23,9 @@ args = parser.parse_args()
 # 处理交互模式输入
 # 处理交互模式
 if args.interactive:
-    phone = input("请输入手机号：")
-    frequency = input("循环次数:")
-    interval = input("设置间隔时间（秒，默认 60 秒）: ")
+    phone = 13890719894
+    frequency = 3
+    interval = 60
 
     try:
         frequency = int(frequency)
